@@ -1,0 +1,741 @@
+[
+  {
+    "firstName": "Rahul",
+    "lastName": "Dravid",
+    "dateOfBirth": "1990-10-09",
+    "userId": "001",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "357",
+    "region": "US",
+    "brand": "PAA",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "FDLN",
+        "brandName": "FoodLion",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "FDLN",
+        "storeIds": [
+          "FDL_117",
+          "FDL_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "FDL_117",
+        "brandId": "FDLN",
+        "write": "true"
+      },
+      {
+        "recordId": "FDL_118",
+        "brandId": "FDNL",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Winscent",
+    "lastName": "Lynch",
+    "dateOfBirth": "1990-10-09",
+    "userId": "002",
+    "roleId": "regional",
+    "lastStoreUpdated": "377",
+    "region": "US",
+    "brand": "RYQ",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "STSP",
+        "brandName": "Stop and Shop",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "CR123",
+        "brandId": "STSP",
+        "storeIds": [
+          "STP_117",
+          "STP_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "STP_117",
+        "brandId": "STSP",
+        "write": "true"
+      },
+      {
+        "recordId": "STP_118",
+        "brandId": "STSP",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Lauren",
+    "lastName": "Lynch",
+    "dateOfBirth": "1990-10-09",
+    "userId": "003",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "396",
+    "brand": "EJT",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Scott",
+    "lastName": "Adams",
+    "dateOfBirth": "1990-10-09",
+    "userId": "004",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "358",
+    "brand": "QAV",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Leonard",
+    "lastName": "Adleman",
+    "dateOfBirth": "1990-10-09",
+    "userId": "005",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "345",
+    "brand": "DZT",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Alfred",
+    "lastName": "Aho",
+    "dateOfBirth": "1990-10-09",
+    "userId": "006",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "ALL",
+    "brand": "ALL",
+    "region": "ALL",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "Allen",
+    "dateOfBirth": "1990-10-09",
+    "userId": "007",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "365",
+    "brand": "GNT",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Allman",
+    "dateOfBirth": "1990-10-09",
+    "userId": "008",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "366",
+    "brand": "FLT",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Marc",
+    "lastName": "Andreessen",
+    "dateOfBirth": "1990-10-09",
+    "userId": "009",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "326",
+    "brand": "VYC",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Bill",
+    "lastName": "Atkinson",
+    "dateOfBirth": "1990-10-09",
+    "userId": "010",
+    "roleId": "Regional",
+    "lastStoreUpdated": "315,562,215,...",
+    "brand": "YHT",
+    "region": "US-West",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "John",
+    "lastName": "Backus",
+    "dateOfBirth": "1990-10-09",
+    "userId": "011",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "348",
+    "brand": "ELL",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Bartle",
+    "dateOfBirth": "1990-10-09",
+    "userId": "012",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "369",
+    "brand": "FDC",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Kent",
+    "lastName": "Beck",
+    "dateOfBirth": "1990-10-09",
+    "userId": "013",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "365",
+    "brand": "ZQP",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Donald",
+    "lastName": "Becker",
+    "dateOfBirth": "1990-10-09",
+    "userId": "014",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "398",
+    "brand": "IYU",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Brian",
+    "lastName": "Behlendorf",
+    "dateOfBirth": "1990-10-09",
+    "userId": "015",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "375",
+    "brand": "DFS",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Doug",
+    "lastName": "Bell",
+    "dateOfBirth": "1990-10-09",
+    "userId": "016",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "316",
+    "brand": "SIC",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Fabrice",
+    "lastName": "Bellard",
+    "dateOfBirth": "1990-10-09",
+    "userId": "017",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "357",
+    "brand": "ONG",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Bina ",
+    "dateOfBirth": "1990-10-09",
+    "userId": "018",
+    "roleId": "Corporate",
+    "lastStoreUpdated": "389",
+    "brand": "PAA",
+    "region": "US",
+    "status": "Active",
+    "brands": [
+      {
+        "brandId": "HNFD",
+        "brandName": "Hanna Ford",
+        "write": "true"
+      }
+    ],
+    "regions": [
+      {
+        "regionId": "RD123",
+        "brandId": "HNFD",
+        "storeIds": [
+          "HND_117",
+          "HND_118"
+        ],
+        "write": "false"
+      }
+    ],
+    "stores": [
+      {
+        "recordId": "HND_117",
+        "brandId": "HNFD",
+        "write": "true"
+      },
+      {
+        "recordId": "HND_118",
+        "brandId": "HNFD",
+        "write": "true"
+      }
+    ]
+  }
+
+]

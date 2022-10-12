@@ -4,10 +4,311 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OST</title>
+    <title>Vite + Vue + TS</title>
   </head>
-  <body>
+  <body class="bg-color">
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
+  <style scoped>
+    .bg-color{
+      background-color: #F1F3F5;
+    }
+
+    .green-btn{ 
+      font-family: Roboto;
+      background: #01AC4C !important;
+    }
+
+    .grey-btn{ 
+      font-family: 'Roboto';
+    }
+
+    .grey2-btn{ 
+      font-family: Roboto;
+      background: #DCDFE2 !important;
+    }
+   
+    .p-card-title-new{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #343D47;
+    }
+
+    .p-card-title-new-16px{
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #343D47;
+    }
+
+    .p-card-title-new-14px{
+      font-family: Roboto Slab;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+    color: #343D47;
+    }
+
+    .font-roboto{ 
+      font-family: Roboto !important;
+    }
+
+    .p-paginator,.p-paginator-first, .p-dropdown {
+        /*background: #ffffff;*/
+        background: #F1F3F5;
+        color: #6c757d;
+        border: solid #e9ecef;
+        font-family: Roboto !important;
+        /*padding: 0.5rem 1rem;*/        
+    }
+
+    .p-dropdown.p-component{
+      border-radius: 25px;
+    }
+
+    .p-paginator-first, .p-paginator-prev, .p-paginator-element, .p-component {        
+        font-family: Roboto !important;        
+    }
+
+    .p-datatable-table{
+      border-collapse: separate !important;
+      border-spacing: 0px 6px !important;
+    }
+
+    .p-datatable .p-datatable-thead > tr > th {
+          /* text-align: left; */
+          padding: 1rem 1rem;
+          border: none; 
+          /* border-width: 0 0 1px 0; */
+          /* font-weight: 600; */
+          color: #495057;
+          background: #F1F3F5; 
+          /*transition: box-shadow 0.2s;*/
+      }
+
+      .p-datatable .p-sortable-column.p-highlight,.p-datatable .p-sortable-column.p-highlight:hover {
+          color: #495057;
+          background: #F1F3F5; 
+      }      
+      .p-datatable .p-sortable-column:focus {
+            /* box-shadow: inset 0 0 0 0.15rem #a6d5fa; */
+            /* outline: 0 none; */
+        }
+
+        .p-datatable .p-sortable-column:focus {
+            box-shadow: none;
+            outline: none;
+        }
+
+        .p-datatable .p-datatable-thead > tr > th {
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: left;
+
+            }
+
+            .p-datatable .p-datatable-tbody > tr > td {
+            font-family: Roboto;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: left;
+            }    
+
+            .pi {
+              font-size: unset;
+            }
+
+            .p-paginator-current, .p-paginator, .p-paginator-element, .p-dropdown,  .p-dropdown-items-wrapper{
+              font-family: Roboto !important;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              letter-spacing: 0px;
+              text-align: right;
+            }
+
+            .p-dropdown,  .p-dropdown-items-wrapper{
+              font-family: Roboto !important;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              letter-spacing: 0px;
+              
+            }
+
+            .p-inputtext{
+              font-family: Roboto !important;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              letter-spacing: 0px;
+            }
+
+
+    /* Rounded edges on table rows */
+
+    .p-button.p-button-success, .p-buttonset.p-button-success > .p-button, .p-splitbutton.p-button-success > .p-button {
+        color: #ffffff;
+        background: #01AC4C;
+        border: 0px;
+
+        
+    }
+    tr{
+      border-radius: 10px
+    }
+
+    td:first-child,
+    th:first-child {
+      border-radius: 10px 0 0 10px;
+    }
+
+    td:last-child,
+    th:last-child {
+      border-radius: 0 10px 10px 0;
+    }
+    /* Rounded edges on table rows */
+
+    .p-datatable .p-paginator-bottom, .text-float-right{
+      float: right;
+    }
+
+    .p-inputtext{
+      background-color: #F1F3F5;
+      font-family: Roboto;
+    }
+
+    .p-inputswitch.p-inputswitch-checked .p-inputswitch-slider {
+      background: #01AC4C !important;
+    }
+
+    .p-inputswitch.p-focus .p-inputswitch-slider{
+      outline: 0 none;
+      outline-offset: 0;
+      box-shadow:0 0 0 0.2rem #a6d5fa
+    }
+
+    .controls-1{
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: right;
+    }
+
+    .p-inputswitch {
+        width: 3rem;
+        height: 1.15rem;
+    }
+
+    .gray-btn1{
+      background: rgba(52, 61, 71, 0.04) !important;
+      color: #343D47;
+      font-family: Roboto;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 16px;
+      letter-spacing: 1.0499999523162842px;
+      text-align: left;
+      border: none;
+
+    }
+
+    .border-radius-24, .p-inputtext{
+      border-radius: 24px !important;
+    }
+
+    .vertical-align-middle{
+      vertical-align: middle;
+    }
+
+    .black-btn{
+      background-color: #343D47;
+    }
+
+    .width-20{
+      width: 20%;
+    }
+
+    .width-78{
+      width: 78%;
+    }
+
+    .margin-right-10px{
+      margin-right: 10px;
+    }
+
+
+    
+.p-checkbox .p-checkbox-box.p-highlight {
+    border-color: #01AC4C;
+    background: #01AC4C;
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-highlight:hover {
+    border-color: #01AC4C;
+    background: #01AC4C;
+    color: #ffffff;
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box:hover {
+    border-color: #01AC4C;
+}
+
+.p-checkbox:not(.p-checkbox-disabled) .p-checkbox-box.p-focus{
+box-shadow: none;
+border-color: #01AC4C;
+}
+
+
+
+.p-inputtext, .p-calendar .p-inputtext{
+  outline-style: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.headerimg{
+  background-image: url("./src/assets/images/header.PNG");
+  height: 81px;
+  background-repeat: no-repeat;
+}
+
+.link-btn-green{
+  color: #007C49 !important;
+}
+
+.p-button.p-button-link:enabled:hover {
+    background: transparent;
+    color: #007C49 !important;
+    border-color: none;
+}
+
+.p-button {
+    
+    /* background: #2196F3; */
+    /* border: 1px solid #2196F3; */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: none;
+    border-radius: 3px;
+}
+
+    </style>    
 </html>
