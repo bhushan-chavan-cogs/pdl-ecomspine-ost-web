@@ -1,0 +1,135 @@
+[
+  {
+    "brandId": "111",
+    "brandName": "FoodLion",
+    "write": false,
+    "read": false,
+    "regions": [
+      {
+        "regionId": "11",
+        "regionName": "Region 11",
+        "write": false,
+        "read": false,
+        "stores": [
+        {
+          "recordId": "21",
+          "storeName": "Store 21",
+          "write": false,
+          "read": false
+        },
+        {
+          "recordId": "22",
+          "storeName": "Store 22",
+          "write": false,
+          "read": false
+        }
+        ]
+      }
+    ]
+  },
+  {
+    "brandId": "2",
+    "brandName": "Albert",
+    "write": false,
+    "read": false,
+    "regions": [
+      {
+        "regionId": "12",
+        "regionName": "Region 12",
+        "write": false,
+        "read": false,
+        "stores": [
+        {
+          "recordId": "31",
+          "storeName": "Store 31",
+          "write": false,
+          "read": false
+        },
+        {
+          "recordId": "32",
+          "storeName": "Store 32",
+          "write": false,
+          "read": false
+        }
+        ]
+      }
+    ]
+  },
+  {
+    "brandId": "3",
+    "brandName": "FreshDirect",
+    "write": false,
+    "read": false,
+    "regions": [
+      {
+        "regionId": "13",
+        "regionName": "Region 13",
+        "write": false,
+        "read": false,
+        "stores": [
+        {
+          "recordId": "41",
+          "storeName": "Store 41",
+          "write": false,
+          "read": false
+        },
+        {
+          "recordId": "42",
+          "storeName": "Store 42",
+          "write": false,
+          "read": false
+        }
+        ]
+      },
+      {
+        "regionId": "14",
+        "regionName": "Region 14",
+        "write": false,
+        "read": false,
+        "stores": [
+        {
+          "recordId": "45",
+          "storeName": "Store 45",
+          "write": false,
+          "read": false
+        },
+        {
+          "recordId": "46",
+          "storeName": "Store 46",
+          "write": false,
+          "read": false
+        }
+        ]
+      }
+    ]
+  },
+  {
+    "brandId": "4",
+    "brandName": "Stop & Shop",
+    "write": false,
+    "read": false,
+    "regions": [
+      {
+        "regionId": "16",
+        "regionName": "Region 16",
+        "write": false,
+        "read": false,
+        "stores": [
+        {
+          "recordId": "51",
+          "storeName": "Store 51",
+          "write": false,
+          "read": false
+        },
+        {
+          "recordId": "52",
+          "storeName": "Store 52",
+          "write": false,
+          "read": false 
+        }
+        ]
+      }
+    ]
+  }
+  ]
+  

@@ -1,31 +1,44 @@
-<script setup lang="ts">
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <div class="grid grid-nogutter">
+    <div class="col-12 md:col-12 lg:col-12 sm:col-12 xl:col-12">
+      <AppHeader/>
+      <div class="col-10 col-offset-1 md:col-10 lg:col-10 sm:col-10 xl:col-10">
+        <router-view></router-view>
+      </div>
+      <AppFooter/>
+    </div>
+  </div>  
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
+<script  lang="ts">
+//setup
+// This starter template is using Vue 3 <script setup> SFCs
+// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+// import HelloWorld from './components/HelloWorld.vue'
+import { defineComponent, computed } from 'vue'
+import AppHeader from './components/Layout/AppHeader.vue'
+import AppFooter from './components/Layout/AppFooter.vue'
+
+
+
+export default defineComponent({
+  name: 'App',
+  setup () {},
+  data () {
+    return {}
+  },
+  computed: {},
+  components: {
+    AppHeader,
+    AppFooter
+  }
+})
+</script>
+
+<style ></style>
+<style>
+
+@font-face {  font-family: "Roboto Slab";  src: local("Roboto_Slab"),   url("./assets/fonts/Roboto_Slab/static/RobotoSlab-Regular.ttf") format("truetype");}
+
+@font-face {  font-family: "Roboto";  src: local("Roboto"),   url("./assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");}
 </style>
