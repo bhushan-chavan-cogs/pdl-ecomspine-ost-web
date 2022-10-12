@@ -1,0 +1,32 @@
+{
+    "firstName": "Rahul",
+    "lastName": "Dravid",
+    "dateOfBirth": "1990-10-09",
+    "userId": "001",
+    "roleId": "corporate",
+    "lastStoreNumberAccessed": "357",
+    "lastStoreZoneIDAccessed": "PAA",
+    "status": "Active",
+    "brandId": "1",
+    "brandName": "FoodLion",
+    "write": "true",
+    "regions": [
+      {
+        "regionId": "11",
+        "regionName": "Region 11",
+        "write": "true",
+        "stores": [
+        {
+          "recordId": "21",
+          "storeName": "Store 21",
+          "write": "true"
+        },
+        {
+          "recordId": "22",
+          "storeName": "Store 22",
+          "write": "false"
+        }
+        ]
+      }
+    ]
+}
